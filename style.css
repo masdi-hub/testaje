@@ -1,0 +1,40 @@
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border: solid 1px lightgray;
+  line-height: 100px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.box:hover {
+  border-width: 3px;
+}
+
+#board {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+button#restart-btn {
+  display: none;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  font-family: 'Comic Neue', cursive;
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: solid 1px lightgray;
+  cursor: pointer;
+}
+
+button#restart-btn:hover {
+  border-width: 3px;
+}
